@@ -1,0 +1,75 @@
+/* wrapper centers the card */
+
+.ticket-wrapper{
+  display:flex;
+  justify-content:center;
+  margin:20px 0 40px 0;
+  width: 100%;
+}
+
+/* main container */
+
+.ticket-container{
+  background:white;
+  padding:30px;
+  width:400px;
+  max-width:500px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* heading */
+
+.ticket-container h2{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+/* form layout */
+
+.ticket-container form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+/* inputs */
+
+.ticket-container input,
+.ticket-container textarea,
+.ticket-container select{
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  font-size:14px;
+}
+
+/* textarea size */
+
+.ticket-container textarea{
+  height:120px;
+  resize:none;
+}
+
+/* button */
+
+.ticket-container button{
+  background:#4f46e5;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:8px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+.ticket-container button:hover{
+  background:#4338ca;
+}
+.cards{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+  justify-content:flex-start;
+}
