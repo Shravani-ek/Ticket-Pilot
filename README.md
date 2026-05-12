@@ -1,16 +1,99 @@
-# React + Vite
+Ticket Pilot 🎫
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Customer Support Dashboard built using React.js
 
-Currently, two official plugins are available:
+📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ticket Pilot is a modern customer support dashboard that helps users create, manage, and analyze support tickets efficiently. The project provides an interactive interface for ticket tracking, automatic priority detection, dashboard analytics, and visual reports.
 
-## React Compiler
+This project is built using React.js with a component-based architecture and includes animations and charts for a better user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
+Create and manage support tickets
+Automatic ticket priority detection
+Dashboard with ticket statistics
+View all tickets in table format
+Pie chart reports for ticket analysis
+Responsive and interactive UI
+Smooth animations using Framer Motion
+Navigation using React Router
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used
+React.js
+React Router DOM
+Chart.js
+React Chartjs 2
+Framer Motion
+CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── Sidebar.jsx
+│   ├── Header.jsx
+│   ├── CreateTicket.jsx
+│   ├── DashboardCards.jsx
+│   ├── TicketTable.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Tickets.jsx
+│   ├── Reports.jsx
+│
+├── App.jsx
+└── main.jsx
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/ticket-pilot.git
+
+Go to project directory:
+cd ticket-pilot
+
+Install dependencies:
+npm install
+
+Run the project:
+npm run dev
+
+🧠 AI Logic Used
+
+The project uses a simple rule-based AI logic to automatically assign ticket priority.
+
+High Priority → urgent, error
+Medium Priority → slow
+Low Priority → default
+
+Example:
+
+if (issue.toLowerCase().includes("urgent")) {
+  priority = "High";
+}
+
+
+📊 Reports & Analytics
+
+The Reports section visualizes ticket data using Pie Charts powered by Chart.js.
+It displays:
+
+Open Tickets
+Pending Tickets
+Closed Tickets
+
+🎯 Future Improvements
+Backend integration with Node.js / Firebase
+Database storage
+Authentication system
+AI chatbot integration
+Email notifications
+Real-time ticket updates
+
+👩‍💻 Author
+
+Shravani Ekre
+
+📄 License
+
+This project is created for educational and learning purposes.
