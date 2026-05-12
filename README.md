@@ -9,6 +9,7 @@ Ticket Pilot is a modern customer support dashboard that helps users create, man
 This project is built using React.js with a component-based architecture and includes animations and charts for a better user experience.
 
 🚀 Features
+
 Create and manage support tickets
 Automatic ticket priority detection
 Dashboard with ticket statistics
@@ -19,6 +20,7 @@ Smooth animations using Framer Motion
 Navigation using React Router
 
 🛠️ Technologies Used
+
 React.js
 React Router DOM
 Chart.js
@@ -27,6 +29,7 @@ Framer Motion
 CSS3
 
 📂 Project Structure
+
 src/
 │
 ├── components/
@@ -43,10 +46,10 @@ src/
 │
 ├── App.jsx
 └── main.jsx
+
 ⚙️ Installation
 
 Clone the repository:
-
 git clone https://github.com/your-username/ticket-pilot.git
 
 Go to project directory:
@@ -83,6 +86,7 @@ Pending Tickets
 Closed Tickets
 
 🎯 Future Improvements
+
 Backend integration with Node.js / Firebase
 Database storage
 Authentication system
